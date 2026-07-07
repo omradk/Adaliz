@@ -1,0 +1,6 @@
+{
+  "name": "Trendyol Finansal Analiz",
+  "description": "Trendyol siparişlerinizi çekerek net kâr/zarar durumunuzu analiz edin ve Gemini AI ile kampanya optimizasyonları yapın.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

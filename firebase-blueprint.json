@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "ayarlar": {
+      "trendyolSellerId": "string",
+      "trendyolApiKey": "string",
+      "trendyolApiSecret": "string",
+      "geminiApiKey": "string"
+    },
+    "siparisler": {
+      "id": "string",
+      "productName": "string",
+      "salePrice": "number",
+      "commission": "number",
+      "shippingCost": "number",
+      "supplyCost": "number",
+      "date": "number",
+      "status": "string"
+    }
+  },
+  "firestore": {
+    "ayarlar": {
+      "path": "/ayarlar/{docId}",
+      "type": "ayarlar"
+    },
+    "siparisler": {
+      "path": "/siparisler/{orderId}",
+      "type": "siparisler"
+    }
+  }
+}
