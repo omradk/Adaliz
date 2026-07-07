@@ -245,7 +245,7 @@ async function startServer() {
       const prompt = `Aşağıdaki e-ticaret sipariş verilerini analiz et. Hangi ürünlerde zarar edildiğini, kargo barem aşımlarını ve fiyatlandırma stratejisi önerilerini kısa ve öz (bullet point şeklinde) Türkçe olarak belirt:\n\n${JSON.stringify(orders, null, 2)}`;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-1.5-pro',
+        model: 'gemini-2.5-pro',
         contents: prompt
       });
 
